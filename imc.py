@@ -7,7 +7,7 @@ imc = weight / (height ** 2)
 
 
 
-print("you Imc is: " + str(int(imc)))
+print("you Imc is: " + str(round(imc)))
 
 if imc < 18.5:
     print("Underweight")
